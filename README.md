@@ -11,9 +11,9 @@ Welcome to the Quiz Game! This simple console-based quiz application allows user
     cd quiz-game
     ```
 
-2. Run the `quiz_game.py` script:
+2. Run the `main.py` script:
     ```bash
-    python quiz_game.py
+    python main.py
     ```
 
 3. Follow the on-screen instructions to pick a category and answer the questions.
@@ -25,7 +25,7 @@ Welcome to the Quiz Game! This simple console-based quiz application allows user
 - Sports
 
 ## How to Play
-1. Launch the game by running the `quiz_game.py` script.
+1. Launch the game by running the `main.py` script.
 2. Choose a category by entering the corresponding category number:
     - 1- Geography
     - 2- Computer Science
@@ -39,7 +39,7 @@ The codebase is organized into several files:
 - `question_model.py`: Defines the `Question` class.
 - `data.py`: Contains question data for each category.
 - `quiz_brain.py`: Implements the `QuizBrain` class, which manages the quiz logic.
-- `quiz_game.py`: The main script to run the quiz game.
+- `main.py`: The main script to run the quiz game.
 
 ## Sample Execution
 ```bash
